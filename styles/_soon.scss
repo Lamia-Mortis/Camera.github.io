@@ -1,0 +1,25 @@
+.soon {
+  background: radial-gradient(#525252, #131313);
+  min-height: 90vh;
+  position: relative;
+
+  h2 {
+    font-size: 100px;
+    min-height: 90vh;
+    width: 45%;
+    background-color: rgb(190, 9, 9);
+    border-radius: 50%;
+    margin: auto;
+    text-align: center;
+    line-height: 380%;
+  }
+
+  img {
+    position: absolute;
+    width: 40%;
+    z-index: 1;
+    right: 33%;
+    bottom: 7%;
+    transform: rotate(353deg);
+  }
+}
